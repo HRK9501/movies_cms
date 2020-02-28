@@ -7,7 +7,7 @@
         $password = trim($_POST['password']);
 
         if(!empty($username) && !empty($password)){
-            //Do the ligin here
+            //Do the login here
             $message = login($username, $password, $ip);
         }else{
             $message = 'Please fill out the required fields';
